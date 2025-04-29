@@ -1,0 +1,24 @@
+[package]
+name = "sensor_fusion_sim"
+version = "0.1.0"
+edition = "2021"
+authors = ["Andrew Dong <andrewdong1994@gmail.com>"]
+description = "A Rust-based simulation of IMU and GPS sensor fusion using an Extended Kalman Filter"
+license = "MIT"
+repository = "https://github.com/andrewlidong/sensor_fusion_sim"
+readme = "README.md"
+keywords = ["sensor-fusion", "kalman-filter", "imu", "gps", "simulation"]
+categories = ["science", "simulation"]
+
+[dependencies]
+nalgebra = "0.32"
+rand = "0.8"
+plotters = "0.3"
+csv = "1.1"
+
+[dev-dependencies]
+criterion = "0.5"
+
+[[bench]]
+name = "ekf_bench"
+harness = false
