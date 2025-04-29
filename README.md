@@ -30,7 +30,7 @@ A Rust-based simulation of IMU and GPS sensor fusion using an Extended Kalman Fi
 ## Installation
 
 ```bash
-git clone https://github.com/andrewlidong/sensor_fusion_sim.git
+git clone https://github.com/andrewlidong/sensor-fusion-sim.git
 cd sensor_fusion_sim
 ```
 
